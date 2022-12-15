@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family:sans-serif;
+    background-image: url('/Backgroud/shutterstock_186395066.jpg');
+    background-size:cover;
+}
+.display-none{
+    display: none;
+}
+
+
+/* the navigation bar */
+.navbar{
+    display: inline;
+    display: grid;
+    grid-template-columns: 39% auto;
+    justify-content: space-between;
+    background-color: red;
+    align-items: center;
+    font-size: 15px;
+}
+.navbar .logo-head{
+    align-items: center;
+    display: flex;
+}
+.navbar .logo{
+    background-color:blueviolet;
+    border-radius: 50%;
+    width: 45px;
+    height: 40px;
+    display: grid;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.navbar h3{
+    color: #fff;
+    padding-left: 40px;
+}
+.navbar li {
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.navbar li:hover{
+    color: yellow;
+}
+
+
+/* the center part  */
+.description{
+    background-color: rgb(175, 175, 175);
+    opacity: .9;
+    width: 400px;
+    height: 350px;
+    color: #fff;
+    position: absolute;
+    right: 2%;
+    bottom: 15%;
+}
+.description h3{
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+.description .body-description{
+    padding-left: 35px;
+    padding-bottom: 35px;
+    font-size: 15px;
+}
+.description .footer-description{
+    padding-left: 35px;
+    font-size: 15px;
+}
+
+
+/* footer section */
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: red; 
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+/* Galerie section */
+.Galerie {
+    margin-top: 3%;
+    height: 450px;
+    background-color: rgb(175, 175, 175,.9);
+}
+.Galerie h2{
+    color: #fff;
+    padding-top: 15px;
+    margin-left: 3%;
+}
+
+/* Year 2021 */
+.Galerie .first{
+    background-color: #fff;
+    width: fit-content;
+    margin-left: 2%;
+    font-size: 12px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    position: absolute;
+    top: 23%;
+    left: 1%;
+}
+.Galerie .first h3{
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.Galerie .first h3:hover{
+    color: blue;
+}
+.Galerie .first img{
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+/* Year 2022 */
+.Galerie .second{
+    background-color: #fff;
+    width: fit-content;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 15px;
+    position: absolute;
+    top: 23%;
+    left: 29%;
+}
+.Galerie .second h3 {
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.Galerie .second h3:hover{
+    color: blue;
+}
+.Galerie .second img{
+    width: 170px;
+    padding-bottom: 10px;
+}
+
+/* Photos of 2021 */
+.Photos-2021{
+    padding-left: 2%;
+}
+.Photos-2021 h3{
+    padding-top: 20px;
+}
+.Photos-2021 div{
+    display: inline;
+    background-color: #fff;
+    padding-top: 130px;
+    padding-right: 10px;
+    margin-right: 3%;
+}
+.Photos-2021 img{
+    margin-top: 3%;
+    width: 250px;
+    height: 120px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.Photos-2021 .retour{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    background-color: black;
+    width: 70px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.Photos-2021 .retour:hover{
+    background-color: red;
+}
+
+/* Photos of 2022 */
+.Photos-2022{
+    padding-left: 2%;
+}
+.Photos-2022 h3{
+    padding-top: 20px;
+}
+.Photos-2022 div{
+    display: inline;
+    background-color: #fff;
+    padding-top: 130px;
+    padding-right: 10px;
+    margin-right: 3%;
+}
+.Photos-2022 img{
+    margin-top: 3%;
+    width: 250px;
+    height: 120px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.Photos-2022 .retour{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    background-color: black;
+    width: 70px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.Photos-2022 .retour:hover{
+    background-color: red;
+}
+
+/* Contactez nous */
+.contact{
+    margin-top: 3%;
+    height: 450px;
+    background-color: rgb(175, 175, 175,.9);
+    color: #fff;
+}
+.contact hr{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.contact h2{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.contact p{
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.contact form{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.contact input{
+    margin-top: 5px;
+    width: 700px;
+    height: 30px;
+}
+.contact .textarea{
+    position: absolute;
+    right: 3%;
+    top: 28%;
+}
+.contact textarea{
+    margin-top: 5px;
+    width: 575px;
+    height: 150px;
+}
+button{
+    color: #fff;
+    width: 95%;
+    margin-top: 5%;
+    margin-left: 18px;
+    padding: 5px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+/* Merci section */
+.Merci{
+    background-color: rgb(175, 175, 175,.8);
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    height: 150px;
+}
+.Merci h3{
+    color: red;
+    padding-left: 1%;
+    padding-top: 2%;
+}
+.Merci p{
+    font-size: 14px;
+    color: #fff;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+
+/* A propos section */
+.A-props{
+    color: #fff;
+    background-color: rgb(175, 175, 175,.8);
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 3%;
+}
+.A-props p{
+    color: rgb(246, 241, 241);
+}
+.A-props h3, .A-props h4{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.A-props p:first-of-type{
+    font-size: 16px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.A-props p:nth-of-type(2), p:nth-of-type(3), p:nth-of-type(4), p:nth-of-type(5){
+    font-size: 16px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
